@@ -1,0 +1,202 @@
+body{   
+    background: url("david-marcu-78A265wPiO4-unsplash\ 1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 600px;
+    height: 1150px;
+    background: rgba(233, 233, 233, 0.25);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper{
+    width: 350px;
+    height: 1150px;
+}
+
+.btnsAuth{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 36px;
+    border: 1px solid #153416;
+    border-radius: 30px;
+}
+
+.btnsAuth>button{
+    width: 49%;
+    height: 32px;
+    border-radius: 30px;
+    border: none;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: white;
+}
+
+.btnActive{
+    background: #153416;
+}
+
+.btnNoBG{
+    background: none;
+}
+
+.authTitle{
+    margin-top: 80px;
+    margin-bottom: 29px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: white;
+}
+
+.inputForm{
+    display: block;
+    height: 44px;
+    width: 340px;
+    background: #929191;
+    border-radius: 30px;
+    border: none;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+    padding-left: 20px;
+
+}
+
+.inputForm::placeholder{
+    color: #FFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.secondBtns{
+    width: 100%;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rememberMeBlock{
+    display: flex;
+    align-items: center;
+}
+
+.rememberMeBlock>label{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    align-items: center;
+    color: white;
+    padding-left: 10px;
+}
+
+.secondBtns>a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #153416;
+}
+
+.signInBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 36px;
+    border: 1px solid #153416;
+    border-radius: 30px;
+}
+
+.signIn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 36px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    border: 1px solid #153416;
+    border-radius: 30px;
+    background: #153416;
+    color: white;
+    margin-top: 45px;
+}
+
+.createAccount{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.createAccount>p{
+    margin-right: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #153416;
+}
+
+.createAccount>a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: white;
+}
+
+.signOther{
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #153416;
+}
+
+.sprits{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right: 60px;
+}
+
+.facebook{
+    width: 30px;
+    height: 30px;
+}
+
+.instagram{
+    width: 30px;
+    height: 30px;
+}
+
+.in{
+    width: 30px;
+    height: 30px;
+}
